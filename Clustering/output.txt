@@ -1,0 +1,1174 @@
+-----------------------Performing clustering on file: iris.arff-----------------------------
+Apr 07, 2022 9:08:45 PM com.github.fommil.netlib.ARPACK <clinit>
+WARNING: Failed to load implementation from: com.github.fommil.netlib.NativeSystemARPACK
+Apr 07, 2022 9:08:45 PM com.github.fommil.jni.JniLoader liberalLoad
+INFO: successfully loaded C:\Users\Achint\AppData\Local\Temp\jniloader9153204017540871220netlib-native_ref-win-x86_64.dll
+MakeDensityBasedClusterer: 
+
+Wrapped clusterer: 
+kMeans
+======
+
+Number of iterations: 7
+Within cluster sum of squared errors: 12.143688281579722
+
+Initial starting points (random):
+
+Cluster 0: 6.1,2.9,4.7,1.4
+Cluster 1: 6.2,2.9,4.3,1.3
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                           Cluster#
+Attribute      Full Data          0          1
+                 (150.0)    (100.0)     (50.0)
+==============================================
+sepallength       5.8433      6.262      5.006
+sepalwidth         3.054      2.872      3.418
+petallength       3.7587      4.906      1.464
+petalwidth        1.1987      1.676      0.244
+
+
+
+Fitted estimators (with ML estimates of variance):
+
+Cluster: 0 Prior probability: 0.6645
+
+Attribute: sepallength
+Normal Distribution. Mean = 6.262 StdDev = 0.6595
+Attribute: sepalwidth
+Normal Distribution. Mean = 2.872 StdDev = 0.3311
+Attribute: petallength
+Normal Distribution. Mean = 4.906 StdDev = 0.8214
+Attribute: petalwidth
+Normal Distribution. Mean = 1.676 StdDev = 0.4226
+
+Cluster: 1 Prior probability: 0.3355
+
+Attribute: sepallength
+Normal Distribution. Mean = 5.006 StdDev = 0.3489
+Attribute: sepalwidth
+Normal Distribution. Mean = 3.418 StdDev = 0.3772
+Attribute: petallength
+Normal Distribution. Mean = 1.464 StdDev = 0.1718
+Attribute: petalwidth
+Normal Distribution. Mean = 0.244 StdDev = 0.1061
+Clustered Instances
+
+0      100 ( 67%)
+1       50 ( 33%)
+
+
+Log likelihood: -2.58173
+
+-2.581725087532348
+
+EM
+==
+
+Number of clusters selected by cross validation: 5
+Number of iterations performed: 16
+
+
+              Cluster
+Attribute           0       1       2       3       4
+               (0.18)  (0.23)  (0.28)  (0.15)  (0.15)
+======================================================
+sepallength
+  mean          4.7748  6.8585  6.1613  5.2823  5.5432
+  std. dev.     0.2405  0.5228  0.4138  0.2407  0.3159
+
+sepalwidth
+  mean          3.1789  3.0862  2.8547  3.7037  2.5786
+  std. dev.     0.2599  0.2891  0.2687  0.2857  0.2512
+
+petallength
+  mean          1.4194  5.7859  4.7484  1.5173   3.863
+  std. dev.     0.1692  0.4745  0.3193  0.1592  0.3516
+
+petalwidth
+  mean          0.1948  2.1327  1.5757  0.3028  1.1696
+  std. dev.     0.0557  0.2359  0.2196  0.1212  0.1351
+
+Clustered Instances
+
+0       28 ( 19%)
+1       35 ( 23%)
+2       42 ( 28%)
+3       22 ( 15%)
+4       23 ( 15%)
+
+
+Log likelihood: -1.60803
+
+-1.6080315389699706
+
+kMeans
+======
+
+Number of iterations: 7
+Within cluster sum of squared errors: 12.143688281579722
+
+Initial starting points (random):
+
+Cluster 0: 6.1,2.9,4.7,1.4
+Cluster 1: 6.2,2.9,4.3,1.3
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                           Cluster#
+Attribute      Full Data          0          1
+                 (150.0)    (100.0)     (50.0)
+==============================================
+sepallength       5.8433      6.262      5.006
+sepalwidth         3.054      2.872      3.418
+petallength       3.7587      4.906      1.464
+petalwidth        1.1987      1.676      0.244
+
+
+Clustered Instances
+
+0      100 ( 67%)
+1       50 ( 33%)
+
+0.0
+
+kMeans
+======
+
+Number of iterations: 6
+Within cluster sum of squared errors: 6.998114004826762
+
+Initial starting points (random):
+
+Cluster 0: 6.1,2.9,4.7,1.4
+Cluster 1: 6.2,2.9,4.3,1.3
+Cluster 2: 6.9,3.1,5.1,2.3
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                           Cluster#
+Attribute      Full Data          0          1          2
+                 (150.0)     (61.0)     (50.0)     (39.0)
+=========================================================
+sepallength       5.8433     5.8885      5.006     6.8462
+sepalwidth         3.054     2.7377      3.418     3.0821
+petallength       3.7587     4.3967      1.464     5.7026
+petalwidth        1.1987      1.418      0.244     2.0795
+
+
+Clustered Instances
+
+0       61 ( 41%)
+1       50 ( 33%)
+2       39 ( 26%)
+
+0.0
+
+kMeans
+======
+
+Number of iterations: 4
+Within cluster sum of squared errors: 5.532831003081898
+
+Initial starting points (random):
+
+Cluster 0: 6.1,2.9,4.7,1.4
+Cluster 1: 6.2,2.9,4.3,1.3
+Cluster 2: 6.9,3.1,5.1,2.3
+Cluster 3: 5.5,4.2,1.4,0.2
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                           Cluster#
+Attribute      Full Data          0          1          2          3
+                 (150.0)     (42.0)     (29.0)     (29.0)     (50.0)
+====================================================================
+sepallength       5.8433       6.25     5.5828     6.9586      5.006
+sepalwidth         3.054        2.9      2.569     3.1345      3.418
+petallength       3.7587     4.8738     4.0034     5.8552      1.464
+petalwidth        1.1987     1.6405      1.231     2.1724      0.244
+
+
+Clustered Instances
+
+0       42 ( 28%)
+1       29 ( 19%)
+2       29 ( 19%)
+3       50 ( 33%)
+
+0.0
+
+kMeans
+======
+
+Number of iterations: 9
+Within cluster sum of squared errors: 5.130784647061167
+
+Initial starting points (random):
+
+Cluster 0: 6.1,2.9,4.7,1.4
+Cluster 1: 6.2,2.9,4.3,1.3
+Cluster 2: 6.9,3.1,5.1,2.3
+Cluster 3: 5.5,4.2,1.4,0.2
+Cluster 4: 6.9,3.1,4.9,1.5
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                           Cluster#
+Attribute      Full Data          0          1          2          3          4
+                 (150.0)     (27.0)     (26.0)     (27.0)     (50.0)     (20.0)
+===============================================================================
+sepallength       5.8433     6.0296       5.55     6.9667      5.006       6.55
+sepalwidth         3.054     2.7556     2.5808      3.137      3.418       3.05
+petallength       3.7587     4.9444     3.9269     5.8852      1.464      4.805
+petalwidth        1.1987     1.7037        1.2        2.2      0.244       1.55
+
+
+Clustered Instances
+
+0       27 ( 18%)
+1       26 ( 17%)
+2       27 ( 18%)
+3       50 ( 33%)
+4       20 ( 13%)
+
+0.0
+
+kMeans
+======
+
+Number of iterations: 7
+Within cluster sum of squared errors: 4.687015166064156
+
+Initial starting points (random):
+
+Cluster 0: 6.1,2.9,4.7,1.4
+Cluster 1: 6.2,2.9,4.3,1.3
+Cluster 2: 6.9,3.1,5.1,2.3
+Cluster 3: 5.5,4.2,1.4,0.2
+Cluster 4: 6.9,3.1,4.9,1.5
+Cluster 5: 6.1,3,4.6,1.4
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                           Cluster#
+Attribute      Full Data          0          1          2          3          4          5
+                 (150.0)     (22.0)     (19.0)     (25.0)     (50.0)     (16.0)     (18.0)
+==========================================================================================
+sepallength       5.8433     6.1273     5.4842      7.012      5.006     6.6313     5.8778
+sepalwidth         3.054        2.7     2.4684      3.164      3.418     3.0375     2.9556
+petallength       3.7587     5.1318     3.8632      5.908      1.464     4.8937       4.35
+petalwidth        1.1987     1.8364     1.1684      2.204      0.244     1.5563     1.3889
+
+
+Clustered Instances
+
+0       22 ( 15%)
+1       19 ( 13%)
+2       25 ( 17%)
+3       50 ( 33%)
+4       16 ( 11%)
+5       18 ( 12%)
+
+0.0
+-----------------------Performing clustering on file: grades.arff-----------------------------
+MakeDensityBasedClusterer: 
+
+Wrapped clusterer: 
+kMeans
+======
+
+Number of iterations: 5
+Within cluster sum of squared errors: 118.73772712319004
+
+Initial starting points (random):
+
+Cluster 0: 100,100,100,70,70,100,10,90,100,97.78,82,0,100,45.67,73
+Cluster 1: 90,0,86.67,0,70,100,0,96.67,100,71.11,100,100,100,62.5,59
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1
+               (159.0)    (147.0)     (12.0)
+============================================
+Q01            95.5189    95.4932    95.8333
+Q02            91.1921    98.6363          0
+Q03            99.0232    99.1929     96.945
+Q04            76.1538    76.8603       67.5
+Q05            73.7735    74.1496    69.1667
+Q06            99.6101    99.5918    99.8333
+Q07             9.4214     9.4422     9.1667
+Q08            84.8335    84.7914    85.3492
+A01             97.327    97.1088        100
+A02            86.7579    86.5838      88.89
+A03            92.5157    92.5306    92.3333
+A04            87.5822    87.2563    91.5742
+A05            97.3585    97.2109    99.1667
+M.E.           68.8743     69.542    60.6942
+F.E.            63.845    62.9539    74.7617
+
+
+
+Fitted estimators (with ML estimates of variance):
+
+Cluster: 0 Prior probability: 0.9193
+
+Attribute: Q01
+Normal Distribution. Mean = 95.4932 StdDev = 15.1232
+Attribute: Q02
+Normal Distribution. Mean = 98.6363 StdDev = 4.7
+Attribute: Q03
+Normal Distribution. Mean = 99.1929 StdDev = 2.7539
+Attribute: Q04
+Normal Distribution. Mean = 76.8603 StdDev = 21.7117
+Attribute: Q05
+Normal Distribution. Mean = 74.1496 StdDev = 11.4193
+Attribute: Q06
+Normal Distribution. Mean = 99.5918 StdDev = 0.8061
+Attribute: Q07
+Normal Distribution. Mean = 9.4422 StdDev = 2.2712
+Attribute: Q08
+Normal Distribution. Mean = 84.7914 StdDev = 12.8106
+Attribute: A01
+Normal Distribution. Mean = 97.1088 StdDev = 8.3894
+Attribute: A02
+Normal Distribution. Mean = 86.5838 StdDev = 14.9092
+Attribute: A03
+Normal Distribution. Mean = 92.5306 StdDev = 9.2039
+Attribute: A04
+Normal Distribution. Mean = 87.2563 StdDev = 30.9598
+Attribute: A05
+Normal Distribution. Mean = 97.2109 StdDev = 7.8057
+Attribute: M.E.
+Normal Distribution. Mean = 69.542 StdDev = 12.4935
+Attribute: F.E.
+Normal Distribution. Mean = 62.9539 StdDev = 34.4653
+
+Cluster: 1 Prior probability: 0.0807
+
+Attribute: Q01
+Normal Distribution. Mean = 95.8333 StdDev = 6.401
+Attribute: Q02
+Normal Distribution. Mean = 0 StdDev = 26.5274
+Attribute: Q03
+Normal Distribution. Mean = 96.945 StdDev = 4.8026
+Attribute: Q04
+Normal Distribution. Mean = 67.5 StdDev = 23.1391
+Attribute: Q05
+Normal Distribution. Mean = 69.1667 StdDev = 6.401
+Attribute: Q06
+Normal Distribution. Mean = 99.8333 StdDev = 0.5528
+Attribute: Q07
+Normal Distribution. Mean = 9.1667 StdDev = 2.7639
+Attribute: Q08
+Normal Distribution. Mean = 85.3492 StdDev = 8.076
+Attribute: A01
+Normal Distribution. Mean = 100 StdDev = 8.1283
+Attribute: A02
+Normal Distribution. Mean = 88.89 StdDev = 10.1022
+Attribute: A03
+Normal Distribution. Mean = 92.3333 StdDev = 5.5277
+Attribute: A04
+Normal Distribution. Mean = 91.5742 StdDev = 27.6123
+Attribute: A05
+Normal Distribution. Mean = 99.1667 StdDev = 2.7639
+Attribute: M.E.
+Normal Distribution. Mean = 60.6942 StdDev = 9.3472
+Attribute: F.E.
+Normal Distribution. Mean = 74.7617 StdDev = 8.0308
+Clustered Instances
+
+0      147 ( 92%)
+1       12 (  8%)
+
+
+Log likelihood: -53.75015
+
+-53.75014786379169
+
+EM
+==
+
+Number of clusters selected by cross validation: 8
+Number of iterations performed: 2
+
+
+             Cluster
+Attribute          0        1        2        3        4        5        6        7
+              (0.04)    (0.1)   (0.08)   (0.09)   (0.14)   (0.09)   (0.35)    (0.1)
+====================================================================================
+Q01
+  mean            100      100  96.0403  98.8362  79.5702  98.6727  96.9595      100
+  std. dev.   14.6938  14.6938   6.2737   3.1349  33.0618   3.3928   6.2661  14.6938
+
+Q02
+  mean            100   94.346  15.1831  99.3093      100  93.3626      100    93.75
+  std. dev.   26.5274   4.3957  35.8857   2.5357        0  24.8936   0.0001  11.1102
+
+Q03
+  mean        98.8883      100  95.7829  98.7318  96.8907      100  99.8823      100
+  std. dev.    2.4858    3.027   5.1085   4.3312   4.5265    3.027   0.6149    3.027
+
+Q04
+  mean        86.6667       75  69.6893  82.6132  47.8157  83.7043  84.6588       75
+  std. dev.   11.0554        5  23.9711   9.0398  38.1846  12.4055  11.3658        5
+
+Q05
+  mean        81.6667       75  70.7711  79.1789  75.6051  70.2453  76.0219       60
+  std. dev.    8.9753        5   2.6679  12.1737  13.9595   9.6597   9.3922       10
+
+Q06
+  mean            100       98  99.8373  98.3957      100  99.7393   99.987      100
+  std. dev.    0.7949   0.7949   0.5467   0.7968        0   0.6734   0.1609   0.7949
+
+Q07
+  mean              0       10   9.2289       10    9.459   9.3363       10       10
+  std. dev.    2.3205   2.3205   2.6676   2.3205   2.0968   2.4893   2.3205   2.3205
+
+Q08
+  mean        90.9733   78.335  84.9674  87.1817   83.847   88.703  83.2762       90
+  std. dev.   10.1184    1.665    7.926   8.1766   7.1593   5.7753  18.3872  12.5563
+
+A01
+  mean        86.6667     97.5      100  99.9876      100  95.0336  98.4017    91.25
+  std. dev.   19.7203   4.3301   8.1283   0.2485        0  12.6281   5.8181  10.3833
+
+A02
+  mean        85.0017       90   89.404  81.1225  80.9831  92.6798  88.5259   83.335
+  std. dev.   14.1089       10  10.0799  15.5008  22.2067   6.4756  11.9103   16.665
+
+A03
+  mean        91.3333       96  92.9349  85.1497  87.2213  89.7246  94.1547      100
+  std. dev.    5.9628        4   5.7329  13.5628  11.7535   5.7849    7.196   9.0076
+
+A04
+  mean        98.1483       96  99.9144  85.2045   95.442   0.0028  99.8166   95.875
+  std. dev.    4.1405   7.7136   0.2961  33.6239   8.3175   0.5069   0.8197   7.6638
+
+A05
+  mean        98.3333      100  99.2287  96.5286  92.9611  98.3815  97.7047     97.5
+  std. dev.    3.7268   7.5852   2.6677   4.9179  17.3741   3.4766   4.1367      2.5
+
+M.E.
+  mean        68.8333   60.835  58.6194  68.9631  72.7999  65.6755  74.9783    61.25
+  std. dev.     8.656    5.335  10.7751   7.6933  13.4173  13.8321  12.4927     0.75
+
+F.E.
+  mean        78.3567        0  74.3984  76.3659  78.9121  79.2041  82.8878        0
+  std. dev.   12.4383  33.4641   8.3621  11.1663  11.7538   7.6786   9.3467  33.4641
+
+Clustered Instances
+
+0        1 (  1%)
+1       16 ( 10%)
+2       11 (  7%)
+3       13 (  8%)
+4       87 ( 55%)
+5       15 (  9%)
+6        7 (  4%)
+7        9 (  6%)
+
+
+Log likelihood: -26.78968
+
+-26.789684965371613
+
+kMeans
+======
+
+Number of iterations: 5
+Within cluster sum of squared errors: 118.73772712319004
+
+Initial starting points (random):
+
+Cluster 0: 100,100,100,70,70,100,10,90,100,97.78,82,0,100,45.67,73
+Cluster 1: 90,0,86.67,0,70,100,0,96.67,100,71.11,100,100,100,62.5,59
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1
+               (159.0)    (147.0)     (12.0)
+============================================
+Q01            95.5189    95.4932    95.8333
+Q02            91.1921    98.6363          0
+Q03            99.0232    99.1929     96.945
+Q04            76.1538    76.8603       67.5
+Q05            73.7735    74.1496    69.1667
+Q06            99.6101    99.5918    99.8333
+Q07             9.4214     9.4422     9.1667
+Q08            84.8335    84.7914    85.3492
+A01             97.327    97.1088        100
+A02            86.7579    86.5838      88.89
+A03            92.5157    92.5306    92.3333
+A04            87.5822    87.2563    91.5742
+A05            97.3585    97.2109    99.1667
+M.E.           68.8743     69.542    60.6942
+F.E.            63.845    62.9539    74.7617
+
+
+Clustered Instances
+
+0      147 ( 92%)
+1       12 (  8%)
+
+0.0
+
+kMeans
+======
+
+Number of iterations: 7
+Within cluster sum of squared errors: 106.27356019841092
+
+Initial starting points (random):
+
+Cluster 0: 100,100,100,70,70,100,10,90,100,97.78,82,0,100,45.67,73
+Cluster 1: 90,0,86.67,0,70,100,0,96.67,100,71.11,100,100,100,62.5,59
+Cluster 2: 100,100,100,90,70,98,10,80,100,80,100,100,95,64.33,74
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1          2
+               (159.0)     (32.0)     (12.0)    (115.0)
+=======================================================
+Q01            95.5189    98.0469    95.8333    94.7826
+Q02            91.1921    99.6875          0    98.3438
+Q03            99.0232    99.8959     96.945    98.9972
+Q04            76.1538     75.625       67.5     77.204
+Q05            73.7735    76.5625    69.1667    73.4782
+Q06            99.6101    99.6875    99.8333    99.5652
+Q07             9.4214      8.375     9.1667     9.7391
+Q08            84.8335     83.725    85.3492    85.0881
+A01             97.327    95.1563        100    97.6522
+A02            86.7579     79.965      88.89    88.4256
+A03            92.5157    81.2813    92.3333    95.6609
+A04            87.5822    46.8056    91.5742    98.5122
+A05            97.3585    97.6563    99.1667     97.087
+M.E.           68.8743    70.9231    60.6942    69.1577
+F.E.            63.845    81.0516    74.7617     57.918
+
+
+Clustered Instances
+
+0       32 ( 20%)
+1       12 (  8%)
+2      115 ( 72%)
+
+0.0
+
+kMeans
+======
+
+Number of iterations: 6
+Within cluster sum of squared errors: 78.21648429620578
+
+Initial starting points (random):
+
+Cluster 0: 100,100,100,70,70,100,10,90,100,97.78,82,0,100,45.67,73
+Cluster 1: 90,0,86.67,0,70,100,0,96.67,100,71.11,100,100,100,62.5,59
+Cluster 2: 100,100,100,90,70,98,10,80,100,80,100,100,95,64.33,74
+Cluster 3: 100,100,100,80,80,100,10,90,100,74.44,62,100,100,59.5,71
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1          2          3
+               (159.0)     (17.0)     (11.0)     (27.0)    (104.0)
+==================================================================
+Q01            95.5189    98.8235    95.4545    99.2593    94.0144
+Q02            91.1921    94.1176          0    96.2791    99.0385
+Q03            99.0232        100    96.6673    99.3826    99.0194
+Q04            76.1538    84.1176    66.3636    77.6353     75.503
+Q05            73.7735    70.5882    70.9091     77.037    73.7499
+Q06            99.6101    99.6471    99.8182         98        100
+Q07             9.4214     9.4118     9.0909         10     9.3077
+Q08            84.8335    87.2559    85.2291    82.8407     84.913
+A01             97.327    95.5882        100    98.5185    97.0192
+A02            86.7579    92.4182      87.88    85.9259    85.9299
+A03            92.5157         88    92.7273    93.2593    93.0385
+A04            87.5822          0    99.8991    97.3007    98.0727
+A05            97.3585    98.5294    99.0909    98.3333    96.7308
+M.E.           68.8743    66.7565    60.6664    63.3219    71.5301
+F.E.            63.845    79.6988    75.2855    30.4819    68.7051
+
+
+Clustered Instances
+
+0       17 ( 11%)
+1       11 (  7%)
+2       27 ( 17%)
+3      104 ( 65%)
+
+0.0
+
+kMeans
+======
+
+Number of iterations: 4
+Within cluster sum of squared errors: 71.99820048920235
+
+Initial starting points (random):
+
+Cluster 0: 100,100,100,70,70,100,10,90,100,97.78,82,0,100,45.67,73
+Cluster 1: 90,0,86.67,0,70,100,0,96.67,100,71.11,100,100,100,62.5,59
+Cluster 2: 100,100,100,90,70,98,10,80,100,80,100,100,95,64.33,74
+Cluster 3: 100,100,100,80,80,100,10,90,100,74.44,62,100,100,59.5,71
+Cluster 4: 100,0,100,80,70,100,10,79.17,100,86.67,94,100,100,76.83,84
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1          2          3          4
+               (159.0)     (17.0)      (8.0)     (28.0)     (93.0)     (13.0)
+=============================================================================
+Q01            95.5189    98.8235       97.5    99.2857     93.414    96.9231
+Q02            91.1921    94.1176       87.5    92.8406        100    23.0769
+Q03            99.0232        100    97.0837    99.4046     99.011    98.2054
+Q04            76.1538    84.1176         65    78.0769    75.6162    72.3077
+Q05            73.7735    70.5882         80    76.7857    73.7633    67.6923
+Q06            99.6101    99.6471        100         98        100        100
+Q07             9.4214     9.4118          0         10     9.9785         10
+Q08            84.8335    87.2559      90.21    83.0964    84.3649      85.45
+A01             97.327    95.5882         90    98.5714    98.6022    92.3077
+A02            86.7579    92.4182    80.4175    85.7143    86.3563    88.3777
+A03            92.5157         88      89.25    93.2143    93.1398    94.4615
+A04            87.5822          0     94.445    97.3971    98.3441    99.7608
+A05            97.3585    98.5294      98.75    98.3929    96.5591    98.4615
+M.E.           68.8743    66.7565    67.9588    62.6557    72.1824    61.9354
+F.E.            63.845    79.6988    74.3925    32.2504    71.0666    53.0108
+
+
+Clustered Instances
+
+0       17 ( 11%)
+1        8 (  5%)
+2       28 ( 18%)
+3       93 ( 58%)
+4       13 (  8%)
+
+0.0
+
+kMeans
+======
+
+Number of iterations: 7
+Within cluster sum of squared errors: 69.85584443492348
+
+Initial starting points (random):
+
+Cluster 0: 100,100,100,70,70,100,10,90,100,97.78,82,0,100,45.67,73
+Cluster 1: 90,0,86.67,0,70,100,0,96.67,100,71.11,100,100,100,62.5,59
+Cluster 2: 100,100,100,90,70,98,10,80,100,80,100,100,95,64.33,74
+Cluster 3: 100,100,100,80,80,100,10,90,100,74.44,62,100,100,59.5,71
+Cluster 4: 100,0,100,80,70,100,10,79.17,100,86.67,94,100,100,76.83,84
+Cluster 5: 100,100,100,70,70,100,10,76.67,100,93.33,88,100,100,72.67,76
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1          2          3          4          5
+               (159.0)     (17.0)      (1.0)     (27.0)     (14.0)     (10.0)     (90.0)
+========================================================================================
+Q01            95.5189    98.8235         90    99.2593    99.1071         96    93.2222
+Q02            91.1921    94.1176          0    96.2791        100          0    98.8889
+Q03            99.0232        100      86.67    99.3826    99.2857     97.667     98.978
+Q04            76.1538    84.1176          0    77.6353    65.7143         73    77.0256
+Q05            73.7735    70.5882         70     77.037    81.4286         71    72.5554
+Q06            99.6101    99.6471        100         98        100       99.8        100
+Q07             9.4214     9.4118          0         10     4.8571         10         10
+Q08            84.8335    87.2559      96.67    82.8407    78.9893     84.085    85.8344
+A01             97.327    95.5882        100    98.5185    94.2857        100    97.4444
+A02            86.7579    92.4182      71.11    85.9259    68.4129     89.557    88.6548
+A03            92.5157         88        100    93.2593    79.4286         92    95.1556
+A04            87.5822          0        100    97.3007    94.8414     99.889    98.5753
+A05            97.3585    98.5294        100    98.3333    98.2143         99       96.5
+M.E.           68.8743    66.7565       62.5    63.3219    73.5243     60.483    71.2199
+F.E.            63.845    79.6988         59    30.4819    77.4486     76.914     67.345
+
+
+Clustered Instances
+
+0       17 ( 11%)
+1        1 (  1%)
+2       27 ( 17%)
+3       14 (  9%)
+4       10 (  6%)
+5       90 ( 57%)
+
+0.0
+-----------------------Performing clustering on file: labor.arff-----------------------------
+MakeDensityBasedClusterer: 
+
+Wrapped clusterer: 
+kMeans
+======
+
+Number of iterations: 3
+Within cluster sum of squared errors: 137.79496140158423
+
+Initial starting points (random):
+
+Cluster 0: 1,5.7,3.971739,3.913333,none,40,empl_contr,7.444444,4,no,11,generous,yes,full,yes,full,good
+Cluster 1: 1,2,3.971739,3.913333,tc,40,ret_allw,4,0,no,11,generous,no,none,no,none,bad
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                                    Cluster#
+Attribute                            Full Data             0             1
+                                        (57.0)        (48.0)         (9.0)
+==========================================================================
+duration                                2.1607        2.2533        1.6667
+wage-increase-first-year                3.8036        3.9834        2.8444
+wage-increase-second-year               3.9717        4.0209        3.7097
+wage-increase-third-year                3.9133        3.9511        3.7119
+cost-of-living-adjustment                 none          none          none
+working-hours                          38.0392       37.7541       39.5599
+pension                             empl_contr    empl_contr          none
+standby-pay                             7.4444        7.7431        5.8519
+shift-differential                       4.871        5.2298         2.957
+education-allowance                         no            no            no
+statutory-holidays                     11.0943        11.237       10.3333
+vacation                         below_average below_average below_average
+longterm-disability-assistance             yes           yes            no
+contribution-to-dental-plan               half          half          none
+bereavement-assistance                     yes           yes           yes
+contribution-to-health-plan               full          full          none
+class                                     good          good           bad
+
+
+
+Fitted estimators (with ML estimates of variance):
+
+Cluster: 0 Prior probability: 0.8305
+
+Attribute: duration
+Normal Distribution. Mean = 2.2533 StdDev = 0.6606
+Attribute: wage-increase-first-year
+Normal Distribution. Mean = 3.9834 StdDev = 1.3358
+Attribute: wage-increase-second-year
+Normal Distribution. Mean = 4.0209 StdDev = 1.0581
+Attribute: wage-increase-third-year
+Normal Distribution. Mean = 3.9511 StdDev = 0.6529
+Attribute: cost-of-living-adjustment
+Discrete Estimator. Counts =  37 9 5  (Total = 51)
+Attribute: working-hours
+Normal Distribution. Mean = 37.7541 StdDev = 2.4286
+Attribute: pension
+Discrete Estimator. Counts =  6 3 42  (Total = 51)
+Attribute: standby-pay
+Normal Distribution. Mean = 7.7431 StdDev = 1.6253
+Attribute: shift-differential
+Normal Distribution. Mean = 5.2298 StdDev = 3.403
+Attribute: education-allowance
+Discrete Estimator. Counts =  9 41  (Total = 50)
+Attribute: statutory-holidays
+Normal Distribution. Mean = 11.237 StdDev = 1.2276
+Attribute: vacation
+Discrete Estimator. Counts =  20 15 16  (Total = 51)
+Attribute: longterm-disability-assistance
+Discrete Estimator. Counts =  48 2  (Total = 50)
+Attribute: contribution-to-dental-plan
+Discrete Estimator. Counts =  4 33 14  (Total = 51)
+Attribute: bereavement-assistance
+Discrete Estimator. Counts =  49 1  (Total = 50)
+Attribute: contribution-to-health-plan
+Discrete Estimator. Counts =  3 9 39  (Total = 51)
+Attribute: class
+Discrete Estimator. Counts =  12 38  (Total = 50)
+
+Cluster: 1 Prior probability: 0.1695
+
+Attribute: duration
+Normal Distribution. Mean = 1.6667 StdDev = 0.6667
+Attribute: wage-increase-first-year
+Normal Distribution. Mean = 2.8444 StdDev = 0.9335
+Attribute: wage-increase-second-year
+Normal Distribution. Mean = 3.7097 StdDev = 0.8495
+Attribute: wage-increase-third-year
+Normal Distribution. Mean = 3.7119 StdDev = 0.5699
+Attribute: cost-of-living-adjustment
+Discrete Estimator. Counts =  7 1 4  (Total = 12)
+Attribute: working-hours
+Normal Distribution. Mean = 39.5599 StdDev = 0.8234
+Attribute: pension
+Discrete Estimator. Counts =  7 3 2  (Total = 12)
+Attribute: standby-pay
+Normal Distribution. Mean = 5.8519 StdDev = 2.3171
+Attribute: shift-differential
+Normal Distribution. Mean = 2.957 StdDev = 1.6494
+Attribute: education-allowance
+Discrete Estimator. Counts =  3 8  (Total = 11)
+Attribute: statutory-holidays
+Normal Distribution. Mean = 10.3333 StdDev = 0.6667
+Attribute: vacation
+Discrete Estimator. Counts =  6 4 2  (Total = 12)
+Attribute: longterm-disability-assistance
+Discrete Estimator. Counts =  3 8  (Total = 11)
+Attribute: contribution-to-dental-plan
+Discrete Estimator. Counts =  7 4 1  (Total = 12)
+Attribute: bereavement-assistance
+Discrete Estimator. Counts =  7 4  (Total = 11)
+Attribute: contribution-to-health-plan
+Discrete Estimator. Counts =  7 2 3  (Total = 12)
+Attribute: class
+Discrete Estimator. Counts =  10 1  (Total = 11)
+Clustered Instances
+
+0      44 ( 77%)
+1      13 ( 23%)
+
+
+Log likelihood: -18.51266
+
+-18.512660684222052
+
+EM
+==
+
+Number of clusters selected by cross validation: 3
+Number of iterations performed: 1
+
+
+                                 Cluster
+Attribute                              0       1       2
+                                  (0.26)   (0.1)  (0.64)
+=========================================================
+duration
+  mean                             2.2557  1.4784  2.2297
+  std. dev.                        0.6764  0.4996  0.6699
+
+wage-increase-first-year
+  mean                             2.4438   3.233  4.4553
+  std. dev.                        0.5858  1.0097  1.1425
+
+wage-increase-second-year
+  mean                             2.8779  4.0649  4.4085
+  std. dev.                        0.6908  0.5953  0.8612
+
+wage-increase-third-year
+  mean                             3.4454  3.9133  4.1065
+  std. dev.                        0.7914  0.0038  0.5199
+
+cost-of-living-adjustment
+  none                             10.148   5.747 29.1049
+  tcf                               2.785  1.0044  7.2107
+  tc                               5.0412  2.0003  2.9585
+  [total]                         17.9742  8.7516 39.2741
+working-hours
+  mean                            38.8877 39.3035 37.4885
+  std. dev.                        1.4645  0.9458  2.6025
+
+pension
+  none                             7.7402  5.2595  1.0003
+  ret_allw                         1.9999  2.0006  2.9995
+  empl_contr                       8.2341  1.4916 35.2743
+  [total]                         17.9742  8.7516 39.2741
+standby-pay
+  mean                             6.3538  6.8455  7.9897
+  std. dev.                        2.1792  1.3056  1.5808
+
+shift-differential
+  mean                             4.0984   3.141  5.4642
+  std. dev.                        1.2895  1.7374  3.8523
+
+education-allowance
+  yes                              2.8032  3.0223  7.1746
+  no                              14.1711  4.7294 31.0996
+  [total]                         16.9742  7.7516 38.2741
+statutory-holidays
+  mean                            10.3736 10.5747 11.4743
+  std. dev.                        0.8778  0.5015  1.2311
+
+vacation
+  below_average                   10.2578   3.472 13.2702
+  average                          5.7657  3.2594 10.9749
+  generous                         1.9508  2.0202 15.0291
+  [total]                         17.9742  8.7516 39.2741
+longterm-disability-assistance
+  yes                             13.5411  1.2879 37.1709
+  no                               3.4331  6.4637  1.1032
+  [total]                         16.9742  7.7516 38.2741
+contribution-to-dental-plan
+  none                             2.6955   6.276  3.0286
+  half                             14.278   1.475  22.247
+  full                             1.0008  1.0007 13.9986
+  [total]                         17.9742  8.7516 39.2741
+bereavement-assistance
+  yes                             15.9741  3.7517 37.2741
+  no                               1.0001  3.9999       1
+  [total]                         16.9742  7.7516 38.2741
+contribution-to-health-plan
+  none                             4.0045  5.9955       1
+  half                             2.4308  1.4707  8.0985
+  full                             11.539  1.2855 30.1756
+  [total]                         17.9742  8.7516 39.2741
+class
+  bad                             15.1151  6.7483  1.1366
+  good                             1.8591  1.0034 37.1375
+  [total]                         16.9742  7.7516 38.2741
+Clustered Instances
+
+0      14 ( 25%)
+1       8 ( 14%)
+2      35 ( 61%)
+
+
+Log likelihood: -16.70645
+
+-16.70644829804398
+
+kMeans
+======
+
+Number of iterations: 3
+Within cluster sum of squared errors: 137.79496140158423
+
+Initial starting points (random):
+
+Cluster 0: 1,5.7,3.971739,3.913333,none,40,empl_contr,7.444444,4,no,11,generous,yes,full,yes,full,good
+Cluster 1: 1,2,3.971739,3.913333,tc,40,ret_allw,4,0,no,11,generous,no,none,no,none,bad
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                                    Cluster#
+Attribute                            Full Data             0             1
+                                        (57.0)        (48.0)         (9.0)
+==========================================================================
+duration                                2.1607        2.2533        1.6667
+wage-increase-first-year                3.8036        3.9834        2.8444
+wage-increase-second-year               3.9717        4.0209        3.7097
+wage-increase-third-year                3.9133        3.9511        3.7119
+cost-of-living-adjustment                 none          none          none
+working-hours                          38.0392       37.7541       39.5599
+pension                             empl_contr    empl_contr          none
+standby-pay                             7.4444        7.7431        5.8519
+shift-differential                       4.871        5.2298         2.957
+education-allowance                         no            no            no
+statutory-holidays                     11.0943        11.237       10.3333
+vacation                         below_average below_average below_average
+longterm-disability-assistance             yes           yes            no
+contribution-to-dental-plan               half          half          none
+bereavement-assistance                     yes           yes           yes
+contribution-to-health-plan               full          full          none
+class                                     good          good           bad
+
+
+Clustered Instances
+
+0      48 ( 84%)
+1       9 ( 16%)
+
+0.0
+
+kMeans
+======
+
+Number of iterations: 3
+Within cluster sum of squared errors: 119.5224194214812
+
+Initial starting points (random):
+
+Cluster 0: 1,5.7,3.971739,3.913333,none,40,empl_contr,7.444444,4,no,11,generous,yes,full,yes,full,good
+Cluster 1: 1,2,3.971739,3.913333,tc,40,ret_allw,4,0,no,11,generous,no,none,no,none,bad
+Cluster 2: 2,2.5,3,3.913333,tcf,40,none,7.444444,4.870968,no,11,below_average,yes,half,yes,full,bad
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                                    Cluster#
+Attribute                            Full Data             0             1             2
+                                        (57.0)        (36.0)         (5.0)        (16.0)
+========================================================================================
+duration                                2.1607        2.2267           1.4          2.25
+wage-increase-first-year                3.8036        4.4695           3.2        2.4938
+wage-increase-second-year               3.9717        4.4175         4.183        2.9027
+wage-increase-third-year                3.9133        4.1093        3.9133        3.4725
+cost-of-living-adjustment                 none          none          none          none
+working-hours                          38.0392       37.4766       39.2078         38.94
+pension                             empl_contr    empl_contr          none    empl_contr
+standby-pay                             7.4444        7.9938        6.7556        6.4236
+shift-differential                       4.871        5.4776        3.1484        4.0444
+education-allowance                         no            no            no            no
+statutory-holidays                     11.0943       11.4801          10.6       10.3809
+vacation                         below_average      generous below_average below_average
+longterm-disability-assistance             yes           yes            no           yes
+contribution-to-dental-plan               half          half          none          half
+bereavement-assistance                     yes           yes            no           yes
+contribution-to-health-plan               full          full          none          full
+class                                     good          good           bad           bad
+
+
+Clustered Instances
+
+0      36 ( 63%)
+1       5 (  9%)
+2      16 ( 28%)
+
+0.0
+
+kMeans
+======
+
+Number of iterations: 5
+Within cluster sum of squared errors: 106.30028418524114
+
+Initial starting points (random):
+
+Cluster 0: 1,5.7,3.971739,3.913333,none,40,empl_contr,7.444444,4,no,11,generous,yes,full,yes,full,good
+Cluster 1: 1,2,3.971739,3.913333,tc,40,ret_allw,4,0,no,11,generous,no,none,no,none,bad
+Cluster 2: 2,2.5,3,3.913333,tcf,40,none,7.444444,4.870968,no,11,below_average,yes,half,yes,full,bad
+Cluster 3: 3,5,5,5,none,40,empl_contr,7.444444,4.870968,no,12,average,yes,half,yes,half,good
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                                    Cluster#
+Attribute                            Full Data             0             1             2             3
+                                        (57.0)        (19.0)         (3.0)        (15.0)        (20.0)
+======================================================================================================
+duration                                2.1607        2.0526             1           2.2         2.408
+wage-increase-first-year                3.8036        4.6895        2.6667        2.6267        4.0152
+wage-increase-second-year               3.9717         4.464        3.9717        3.0296        4.2108
+wage-increase-third-year                3.9133        4.0375        3.9133        3.4431         4.148
+cost-of-living-adjustment                 none          none          none          none          none
+working-hours                          38.0392       37.8989       38.6797       39.1333       37.2559
+pension                             empl_contr    empl_contr          none          none    empl_contr
+standby-pay                             7.4444        7.7661        6.2963        6.3556        8.1278
+shift-differential                       4.871        5.3277        3.2473        3.9312        5.3855
+education-allowance                         no            no           yes            no            no
+statutory-holidays                     11.0943       11.4737            11          10.2       11.4189
+vacation                         below_average      generous       average below_average below_average
+longterm-disability-assistance             yes           yes            no           yes           yes
+contribution-to-dental-plan               half          full          none          half          half
+bereavement-assistance                     yes           yes            no           yes           yes
+contribution-to-health-plan               full          full          none          full          full
+class                                     good          good           bad           bad          good
+
+
+Clustered Instances
+
+0      19 ( 33%)
+1       3 (  5%)
+2      15 ( 26%)
+3      20 ( 35%)
+
+0.0
+
+kMeans
+======
+
+Number of iterations: 4
+Within cluster sum of squared errors: 99.23031138882808
+
+Initial starting points (random):
+
+Cluster 0: 1,5.7,3.971739,3.913333,none,40,empl_contr,7.444444,4,no,11,generous,yes,full,yes,full,good
+Cluster 1: 1,2,3.971739,3.913333,tc,40,ret_allw,4,0,no,11,generous,no,none,no,none,bad
+Cluster 2: 2,2.5,3,3.913333,tcf,40,none,7.444444,4.870968,no,11,below_average,yes,half,yes,full,bad
+Cluster 3: 3,5,5,5,none,40,empl_contr,7.444444,4.870968,no,12,average,yes,half,yes,half,good
+Cluster 4: 2,3.5,4,3.913333,none,40,empl_contr,7.444444,2,no,10,below_average,no,half,yes,half,bad
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                                    Cluster#
+Attribute                            Full Data             0             1             2             3             4
+                                        (57.0)        (19.0)         (3.0)         (7.0)        (22.0)         (6.0)
+====================================================================================================================
+duration                                2.1607             2             1        2.5714        2.4619        1.6667
+wage-increase-first-year                3.8036        4.7158        2.6667        2.2857        3.7411        3.4833
+wage-increase-second-year               3.9717        4.5166        3.9717        2.4286        3.9416        4.1572
+wage-increase-third-year                3.9133        4.0375        3.9133         3.179        4.0397        3.9133
+cost-of-living-adjustment                 none          none          none          none          none          none
+working-hours                          38.0392       37.7957       38.6797       39.2857       37.3217       39.6667
+pension                             empl_contr    empl_contr          none          none    empl_contr    empl_contr
+standby-pay                             7.4444        7.7661        6.2963        6.6667        8.0657        5.6296
+shift-differential                       4.871        5.2683        3.2473        4.3364        5.5205        2.6667
+education-allowance                         no            no           yes            no            no            no
+statutory-holidays                     11.0943       11.4211            11       10.4286       11.4262        9.6667
+vacation                         below_average      generous       average below_average       average below_average
+longterm-disability-assistance             yes           yes            no           yes           yes            no
+contribution-to-dental-plan               half          full          none          half          half          half
+bereavement-assistance                     yes           yes            no           yes           yes           yes
+contribution-to-health-plan               full          full          none          full          full          none
+class                                     good          good           bad           bad          good           bad
+
+
+Clustered Instances
+
+0      19 ( 33%)
+1       3 (  5%)
+2       7 ( 12%)
+3      22 ( 39%)
+4       6 ( 11%)
+
+0.0
+
+kMeans
+======
+
+Number of iterations: 4
+Within cluster sum of squared errors: 96.8855182088515
+
+Initial starting points (random):
+
+Cluster 0: 1,5.7,3.971739,3.913333,none,40,empl_contr,7.444444,4,no,11,generous,yes,full,yes,full,good
+Cluster 1: 1,2,3.971739,3.913333,tc,40,ret_allw,4,0,no,11,generous,no,none,no,none,bad
+Cluster 2: 2,2.5,3,3.913333,tcf,40,none,7.444444,4.870968,no,11,below_average,yes,half,yes,full,bad
+Cluster 3: 3,5,5,5,none,40,empl_contr,7.444444,4.870968,no,12,average,yes,half,yes,half,good
+Cluster 4: 2,3.5,4,3.913333,none,40,empl_contr,7.444444,2,no,10,below_average,no,half,yes,half,bad
+Cluster 5: 2,4,4,3.913333,none,40,none,7.444444,3,no,10,below_average,no,none,yes,none,bad
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                                    Cluster#
+Attribute                            Full Data             0             1             2             3             4             5
+                                        (57.0)        (19.0)         (1.0)         (8.0)        (22.0)         (3.0)         (4.0)
+==================================================================================================================================
+duration                                2.1607             2             1         2.375        2.4619        1.6667           1.5
+wage-increase-first-year                3.8036        4.7158             2        2.2625        3.7411           3.6           3.5
+wage-increase-second-year               3.9717        4.5166        3.9717        2.6215        3.9416        3.9906        4.2359
+wage-increase-third-year                3.9133        4.0375        3.9133        3.2708        4.0397        3.9133        3.9133
+cost-of-living-adjustment                 none          none            tc          none          none          none          none
+working-hours                          38.0392       37.7957            40        39.375       37.3217       39.3333       39.0098
+pension                             empl_contr    empl_contr      ret_allw          none    empl_contr    empl_contr          none
+standby-pay                             7.4444        7.7661             4        6.0833        8.0657        5.6296        7.4444
+shift-differential                       4.871        5.2683             0        4.1694        5.5205        2.3333        3.9355
+education-allowance                         no            no            no            no            no            no           yes
+statutory-holidays                     11.0943       11.4211            11         10.25       11.4262        9.6667          10.5
+vacation                         below_average      generous      generous below_average       average below_average below_average
+longterm-disability-assistance             yes           yes            no           yes           yes            no            no
+contribution-to-dental-plan               half          full          none          half          half          half          none
+bereavement-assistance                     yes           yes            no           yes           yes           yes           yes
+contribution-to-health-plan               full          full          none          full          full          half          none
+class                                     good          good           bad           bad          good           bad           bad
+
+
+Clustered Instances
+
+0      19 ( 33%)
+1       1 (  2%)
+2       8 ( 14%)
+3      22 ( 39%)
+4       3 (  5%)
+5       4 (  7%)
+
+0.0
